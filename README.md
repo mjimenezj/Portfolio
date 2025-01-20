@@ -1,5 +1,7 @@
 # Data Science Portfolio: Protein Design & ML for Drug Discovery  
 
+![Imagen](Images/docking.png)
+
 Welcome to my data science portfolio, where I showcase projects that merge my expertise in protein design with cutting-edge machine learning (ML) techniques for drug discovery. This repository highlights my ability to solve complex problems in the pharmaceutical industry by leveraging advanced computational methods.  
 
 ## What's inside?  
