@@ -2,7 +2,14 @@
 
 ![Imagen](Images/docking.png)
 
-Welcome to my data science portfolio, where I showcase projects that merge my expertise in protein design with cutting-edge machine learning (ML) techniques for drug discovery. This repository highlights my ability to solve complex problems in the pharmaceutical industry by leveraging advanced computational methods.  
+Welcome to my Data Science Portfolio!
+
+DisClaimer: This portfolio is always under construction.  
+
+Aquí muestro buenos ejemplos de proyectos hechos enteramente por mí donde se aplican diferentes técnicas de ML para resolver problemas. El resumen de las técnicas se muestra en la portada, disfruten tanto como yo haciéndolo. 
+
+
+where I showcase projects that merge my expertise in protein design with cutting-edge machine learning (ML) techniques for drug discovery. This repository highlights my ability to solve complex problems in the pharmaceutical industry by leveraging advanced computational methods.  
 
 ## What's inside?  
 
