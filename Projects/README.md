@@ -18,7 +18,7 @@ In this project, I explore the use of Supervided Classification Machine Learning
 
 | Project Link | Completion Date | ML Algorithms |Key Steps 
 |---|---|---|---|
-|👶🏻🩺 [Fetal Health Classification](https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_1/README.md) | Feb, 2025 | - Naive Bayes <br> - Support Vector Machine (SVM) <br> - K-nearest neighbor (KNN)  | 1. Exploratory Data Abalysis (EDA): univariate, bivariate and multivariate. <br> 2. Outliers detection (IQR, Z-score) & Feature Scaling. <br> 3. Coarse-to-Fine Hyperparameter Tuning Search. <br> 4. Models Training. <br> 5. Validation Report: ROC-AUC, Accuracy, F1-score, PR-AUC, etc. |
+|👶🏻🩺 [Fetal Health Classification](https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_1/README.md) | Feb, 2025 | - Naive Bayes <br> - Support Vector Machine (SVM) <br> - K-nearest neighbor (KNN)  | 1. Exploratory Data Analysis (EDA): univariate, bivariate and multivariate. <br> 2. Outliers detection (IQR, Z-score) & Feature Scaling. <br> 3. Coarse-to-Fine Hyperparameter Tuning Search. <br> 4. Models Training. <br> 5. Validation Report: ROC-AUC, Accuracy, F1-score, PR-AUC, etc. |
 
 
 ### 2.
