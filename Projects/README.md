@@ -1,16 +1,21 @@
+# 📚 Wellcome to the Projects section
+
 ## What's inside?  
 
-This portfolio includes carefully selected projects that demonstrate my skills and contributions in the following areas:  
-- **Protein design:** ML-driven tools for predicting and optimizing protein sequences with desired properties.  
-- **Drug discovery:** Models to predict pharmacological properties, prioritize compounds, and accelerate drug development pipelines.  
-- **Reproducible workflows:** All projects are documented and designed to be easily understood and replicated.  
+- 📊 This portfolio includes some of the projects I've worked on, showcasing my skills as a data scientist.
+- ♻️ This repository is always under construction, so I will be adding more projects in the future.
+- 🎓 I learned a lot from each project I completed, so I hope you enjoy them as much as I did :).
+
 
 ## Projects  
 
-### 1. **Protein Sequence Optimization with Generative Models**  
+### 1. **Análisis del estado fetal de un bebé durante el parto**  
 
-In this notebook, I explore the use of generative models (e.g., Variational Autoencoders, GANs) to optimize protein sequences for enhanced stability and activity. Using public datasets like UniProt, I demonstrate how deep learning can drive rational protein design.  
-[Protein Design Notebook](Notebooks/protein_design.ipynb)
+In this project, I explore the use of Supervided Clssification Machine Learning Algorithms (Naive Bayes and Support Vector Machine) to binary clasify the fetal state. 
 
-### 2. **Binding Affinity Prediction for Drug Candidates**  
-A supervised ML approach to predict protein-ligand binding affinity using regression models. This project leverages the PDBbind dataset and includes an evaluation of models such as Random Forests, Gradient Boosting, and Neural Networks.  
+| Project Link | Completion Date | Key Steps | Project Description | 
+|---|---|---|---|
+|👶🏻🩺 [Fetal Condition](https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_1/README.md) | Feb, 2025 | - Statistical and Visual Analysis (Univariant, Bivariant and Multivariant), Outliers detection (Z-score, IQR),   feature scaling, Stratified data split, Coarse to grain fine tunning Hyperparameter search, Naive Bayes, Support Vector Machine, Validation report| parrafo explicando 
+
+
+### 2.
