@@ -15,7 +15,7 @@ In this project, I explore the use of Supervided Clssification Machine Learning 
 
 | Project Link | Completion Date | Key Steps | Project Description | 
 |---|---|---|---|
-|👶🏻🩺 [Fetal Condition](https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_1/README.md) | Feb, 2025 | - Statistical and Visual Analysis (Univariant, Bivariant and Multivariant), Outliers detection (Z-score, IQR),   feature scaling, Stratified data split, Coarse to grain fine tunning Hyperparameter search, Naive Bayes, Support Vector Machine, K-nearest neighbor Validation report| parrafo explicando 
+|👶🏻🩺 [Fetal Health Classification](https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_1/README.md) | Feb, 2025 | - Statistical and Visual Analysis (Univariant, Bivariant and Multivariant), Outliers detection (Z-score, IQR),   feature scaling, Stratified data split, Coarse to grain fine tunning Hyperparameter search, Naive Bayes, Support Vector Machine, K-nearest neighbor Validation report| parrafo explicando 
 
 
 ### 2.
