@@ -4,15 +4,15 @@
 
 ## What's inside?  
 
-- 📊 This portfolio includes some of the projects I've worked on, showcasing my skills as a data scientist.
-- 🎓 I learned a lot from each project I completed, so I hope you enjoy them as much as I did :).
+- 📊 This portfolio includes some of the projects I've worked on, showcasing my skills as a Data Scientist.
+- 🎓 I learned a lot from each project, so I hope you enjoy them as much as I did :).
 
 
 ## Projects  
 
 ### 1. **Fetal Health Classification during Childbirth**  
 
-Reducing child mortality is a crucial goal outlined in several of the United Nations' Sustainable Development Goals. During childbirth, it is possible to monitor the baby's health to try to diagnose their health condition
+Reducing child mortality is a crucial goal outlined in several of the United Nations' Sustainable Development Goals. During childbirth, it is possible to monitor the baby's health to try to diagnose their health condition.
 
 In this project, I explore the use of Supervided Classification Machine Learning Algorithms (Naive Bayes, Support Vector Machine and K-Nearest Neighbor) to predict the Fetal Health State during childbirth.
 
