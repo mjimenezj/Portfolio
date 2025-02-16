@@ -1,6 +1,6 @@
-## 🙋🏻‍♂️ Wellcome to my Data Science Portfolio! 
-
 ![Imagen](Images/banner.png)
+
+# 🙋🏻‍♂️ Wellcome to my Data Science Portfolio! 
 
 Hello, I'm Marcos. I am a passionate scientist with more than 5 years of research experience recently graduated as PhD in Biochemistry. 
 
@@ -22,7 +22,7 @@ Checkout my portfolio, where I showcase my [projects](https://github.com/mjimene
 
 ### 🧬 My scientific publications
 
-Despite most of my research has not been published yet, Here is my first aresearch article as the first author in a Q1 journal:
+Despite most of my research has not been published yet, here is my first research article:
 
 - Jiménez-Juliana, M., Martínez-Jiménez, M. I., & Blanco, L. (2024). Remdesivir triphosphate is a valid substrate to initiate synthesis of DNA primers by human PrimPol. *DNA repair*, 143, 103772 (Elsevier). https://doi.org/10.1016/j.dnarep.2024.103772
 
