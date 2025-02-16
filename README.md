@@ -1,8 +1,8 @@
 ## 🙋🏻‍♂️ Wellcome to my Data Science Portfolio! 
 
-![Imagen](Images/banner_portfolio.png)
+![Imagen](Images/banner.png)
 
-Hello, I'm Marcos. I am a passionate scientist recently graduated as PhD in Biochemistry. 
+Hello, I'm Marcos. I am a passionate scientist with more than 5 years of research experience recently graduated as PhD in Biochemistry. 
 
 My research has awakened my interest in the world of Data Science. I am currently enrolled in an online MSc in Data Science and want to share some of the projects I am working on here. I hope you enjoy it as much as I did creating it :)
 
@@ -31,5 +31,3 @@ Despite most of my research has not been published yet, Here is my first aresear
 
 - [Linkedin](https://www.linkedin.com/in/marcos-jimenez-juliana/)
 
-
-<p align="center">Este texto estará centrado</p>
