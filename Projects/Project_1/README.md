@@ -11,17 +11,17 @@ In this context, Cardiotocograms (CTGs) offer a simple and cost-effective way to
 
 A dataset of 2,126 CTGs has been collected, along with their respective diagnostic features. These CTGs were classified by three expert obstetricians, and a consensus classification label was assigned to each. The diagnostic features represent the set of variables that will be used to estimate the fetal condition (target) as either normal or abnormal.
 
-## Objective
+## 🎯 Objective
 
 To predict the fetal health status during childbirth using Supervised Classification Algorithms.
-
-## Table of Contents
 
 
 ## Dataset Used
 
-This project use https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification
+This project uses data publicly available at: https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification
 
+
+## Table of Contents
 
 ## Technologies
 
