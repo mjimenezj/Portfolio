@@ -15,20 +15,19 @@ A dataset of 2,126 CTGs has been collected, along with their respective diagnost
 
 To predict the fetal health status during childbirth using Supervised Classification Algorithms.
 
-
 ## Dataset Used
 
 This project uses data publicly available at: https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification
-
 
 ## Machine Learning Algorithms
 - Naive Bayes
 - Support Vector Machine (SVM)
 - K-nearest neighbor (KNN)
-- 
-## Key Steps 
 
-1. Statistical and Visual Analysis: univariant, bivariant and multivariant.
+## Table of Contents 
+
+
+1. Statistical and Visual Analysis.
 2. Outliers detection (IQR, Z-score) & Feature Scaling.
 3. Stratified Data Split.
 4. Coarse-to-Fine Hyperparameter Tuning Search.
@@ -37,4 +36,4 @@ This project uses data publicly available at: https://www.kaggle.com/datasets/an
 
 
 
-## Data Pipeline Architecture
+## 1. Statistical and Visual Analysis
