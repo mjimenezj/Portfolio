@@ -29,10 +29,9 @@ This project uses data publicly available at: https://www.kaggle.com/datasets/an
 
 1. Exploratory Data Analysis (EDA)
 2. Outliers detection (IQR, Z-score) & Feature Scaling.
-3. Stratified Data Split.
-4. Coarse-to-Fine Hyperparameter Tuning Search.
-5. Models Training. <br>
-6. Validation Report: ROC-AUC, Accuracy, F1-score, PR-AUC, etc.
+3. Coarse-to-Fine Hyperparameter Tuning Search.
+4. Models Training. <br>
+5. Validation Report: ROC-AUC, Accuracy, F1-score, PR-AUC, etc.
 
 
 
