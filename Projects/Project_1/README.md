@@ -27,7 +27,7 @@ This project uses data publicly available at: https://www.kaggle.com/datasets/an
 ## Table of Contents 
 
 
-1. Statistical and Visual Analysis.
+1. Exploratory Data Analysis (EDA)
 2. Outliers detection (IQR, Z-score) & Feature Scaling.
 3. Stratified Data Split.
 4. Coarse-to-Fine Hyperparameter Tuning Search.
@@ -36,4 +36,6 @@ This project uses data publicly available at: https://www.kaggle.com/datasets/an
 
 
 
-## 1. Statistical and Visual Analysis
+## 1. Exploratory Data Analysis (EDA)
+
+
