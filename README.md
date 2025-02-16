@@ -1,41 +1,35 @@
-# Data Science Portfolio: Protein Design & ML for Drug Discovery  
+## 🙋🏻‍♂️ Wellcome to my Data Science Portfolio! 
 
-![Imagen](Images/docking.png)
+![Imagen](Images/banner_portfolio.png)
 
-Welcome to my Data Science Portfolio!
-![ir](main.html)
-DisClaimer: This portfolio is always under construction.  
+Hello, I'm Marcos. I am a passionate scientist recently graduated as PhD in Biochemistry. 
 
-Aquí muestro buenos ejemplos de proyectos hechos enteramente por mí donde se aplican diferentes técnicas de ML para resolver problemas. El resumen de las técnicas se muestra en la portada, disfruten tanto como yo haciéndolo. 
-DIVIDIR EN 2: PROTEIN ENGINEERING AND DESIGN Y DATA SCIENCE FOR DRUG DISCOVERY
+My research has awakened my interest in the world of Data Science. I am currently enrolled in an online MSc in Data Science and want to share some of the projects I am working on here. I hope you enjoy it as much as I did creating it :)
 
-where I showcase projects that merge my expertise in protein design with cutting-edge machine learning (ML) techniques for drug discovery. This repository highlights my ability to solve complex problems in the pharmaceutical industry by leveraging advanced computational methods.  
+### 📚 My Projects
 
-## What's inside?  
+Checkout my portfolio, where I showcase my [projects](https://github.com/mjimenezj/Portfolio/Projects/README.md).
 
-This portfolio includes carefully selected projects that demonstrate my skills and contributions in the following areas:  
-- **Protein design:** ML-driven tools for predicting and optimizing protein sequences with desired properties.  
-- **Drug discovery:** Models to predict pharmacological properties, prioritize compounds, and accelerate drug development pipelines.  
-- **Reproducible workflows:** All projects are documented and designed to be easily understood and replicated.  
 
-## Projects  
+### 🛠️ Tools
 
-### 1. **Protein Sequence Optimization with Generative Models**  
+- Programming Languages: Python (proficient), SQL, LaTeX.
+- Data Preprocessing: outliers detection, feature scaling & dimensionality reduction.
+- Skilled in: Pandas, Numpy, Scikit-learn, Matplotlib, Seaborn.
+- Machine Learning Algorithms: Linear and Logistic Regressions, Naive Bayes, SVM, KNN, Softmax, Decision Trees, K-Means clustering.
+- Databases: PostgreSQL, MySQL, MongoDB.
 
-In this notebook, I explore the use of generative models (e.g., Variational Autoencoders, GANs) to optimize protein sequences for enhanced stability and activity. Using public datasets like UniProt, I demonstrate how deep learning can drive rational protein design.  
-[Protein Design Notebook](Notebooks/protein_design.ipynb)
 
-### 2. **Binding Affinity Prediction for Drug Candidates**  
-A supervised ML approach to predict protein-ligand binding affinity using regression models. This project leverages the PDBbind dataset and includes an evaluation of models such as Random Forests, Gradient Boosting, and Neural Networks.  
+### 🧬 My scientific publications
 
-### 3. **Classification of Drug-like Compounds**  
-In this project, I develop a pipeline for classifying compounds based on their drug-likeness using chemical descriptors and molecular fingerprints. Techniques like PCA for dimensionality reduction and ensemble models for prediction are employed.  
+Despite most of my research has not been published yet, Here is my first aresearch article as the first author in a Q1 journal:
 
-### 4. **Molecular Property Prediction with Graph Neural Networks (GNNs)**  
-Here, I implement GNNs to predict molecular properties directly from molecular graphs. This notebook demonstrates the application of graph-based learning in drug discovery workflows, providing insights into structure-activity relationships.  
+- Jiménez-Juliana, M., Martínez-Jiménez, M. I., & Blanco, L. (2024). Remdesivir triphosphate is a valid substrate to initiate synthesis of DNA primers by human PrimPol. *DNA repair*, 143, 103772 (Elsevier). https://doi.org/10.1016/j.dnarep.2024.103772
 
-## About Me  
 
-I am a data scientist specializing in protein design and ML for drug discovery. With a strong foundation in computational biology and machine learning, I am passionate about leveraging data to drive innovation in the pharmaceutical sector.  
+### 👋🏻 Connect with Me
 
-Feel free to explore the notebooks and reach out if you'd like to discuss my work or potential collaborations!  
+- [Linkedin](https://www.linkedin.com/in/marcos-jimenez-juliana/)
+
+
+<p align="center">Este texto estará centrado</p>
