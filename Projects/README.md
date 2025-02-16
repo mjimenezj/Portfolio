@@ -10,7 +10,7 @@
 
 ## Projects  
 
-### 1. **Fetal Health Classification during Childbirth**  
+### 1. 👶🏻🩺 **Fetal Health Prediction During Childbirth**  
 
 Reducing child mortality is a crucial goal outlined in several of the United Nations' Sustainable Development Goals. During childbirth, it is possible to monitor the baby's health to try to diagnose their health condition.
 
