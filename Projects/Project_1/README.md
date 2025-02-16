@@ -1,5 +1,5 @@
 
-# 👶🏻🩺 Fetal Health Prediction
+# 👶🏻🩺 Fetal Health Classification
 
 ## Context
 
