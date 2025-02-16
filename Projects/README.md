@@ -9,13 +9,15 @@
 
 ## Projects  
 
-### 1. **Análisis del estado fetal de un bebé durante el parto**  
+### 1. **Fetal Health Classification**  
 
-In this project, I explore the use of Supervided Clssification Machine Learning Algorithms (Naive Bayes, Support Vector Machine and KNN) to binary clasify the fetal state. 
+Reducing child mortality is a crucial goal outlined in several of the United Nations' Sustainable Development Goals.
 
-| Project Link | Completion Date | Key Steps | Project Description | 
+In this project, I explore the use of Supervided Classification Machine Learning Algorithms (Naive Bayes, Support Vector Machine and KNN) to binary clasify the fetal state. 
+
+| Project Link | Completion Date | Algorithms |Key Steps 
 |---|---|---|---|
-|👶🏻🩺 [Fetal Health Classification](https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_1/README.md) | Feb, 2025 | - Statistical and Visual Analysis (Univariant, Bivariant and Multivariant), Outliers detection (Z-score, IQR),   feature scaling, Stratified data split, Coarse to grain fine tunning Hyperparameter search, Naive Bayes, Support Vector Machine, K-nearest neighbor Validation report| parrafo explicando 
+|👶🏻🩺 [Fetal Health Classification](https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_1/README.md) | Feb, 2025 | - Naive Bayes <br> - Support Vector Machine (SVM) <br> - K-nearest neighbor (KNN)  | - Statistical and Visual Analysis: univariant, bivariant and multivariant. <br> - Outliers detection (IQR, Z-score) and feature scaling. <br> - Stratified data split.  <br> - Coarse-to-fine hyperparameter tuning search <br> - Model Training <br> - Validation: ROC-AUC, accuracy, F1-score, PR-AUC, etc. |
 
 
 ### 2.
