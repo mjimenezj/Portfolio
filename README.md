@@ -8,8 +8,7 @@ My research has awakened my interest in the world of Data Science. I am currentl
 
 ### 📚 My Projects
 
-Checkout my portfolio, where I showcase my [projects](https://github.com/mjimenezj/Portfolio/Projects).
-
+Checkout my portfolio, where I showcase my [projects](https://github.com/mjimenezj/Portfolio/Project/blob/README.md).
 
 ### 🛠️ Tools
 
