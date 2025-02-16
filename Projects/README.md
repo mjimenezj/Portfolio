@@ -1,6 +1,6 @@
 # 📚 Welcome to the Projects section
 
-👷‍♂️ This repository is always under construction, so I will be adding more projects in the future.
+👷‍♂️ As I continue learning and refining my skills, this repository is a work in progress, so I will be adding updates and more projects in the future.
 
 ## What's inside?  
 
