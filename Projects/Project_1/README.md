@@ -1,5 +1,5 @@
 
-# 👶🏻🩺 Fetal Health Classification
+# 👶🏻🩺 Fetal Health Prediction During Childbirth
 
 ## Context
 
@@ -17,9 +17,12 @@ To predict the fetal health status during childbirth using Supervised Classifica
 
 ## Dataset Used
 
-This project uses data publicly available at: https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification
+This project uses data published by **Ayres-de-Campos, *et al.*, (2000). *Journal of Maternal-Fetal Medicine*, 9(5), 311-318.**
+
+The data is available [here](https://www.tandfonline.com/doi/abs/10.3109/14767050009053454) and [here](https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification).
 
 ## Machine Learning Algorithms
+
 - Naive Bayes
 - Support Vector Machine (SVM)
 - K-nearest neighbor (KNN)
