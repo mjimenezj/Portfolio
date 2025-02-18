@@ -38,7 +38,7 @@ The data is available [here](https://www.tandfonline.com/doi/abs/10.3109/1476705
     - 6.1. [Naive Bayes](#bayes)
     - 6.2. [Support Vector Machine (SVM)](#svm)
     - 6.3. [K-nearest Neighbors (KNN)](#knn)
-7. [Validation Report](#report)
+7. [Overall Models Comparison](#comparison)
 8. [Conclusions](#conclusions)
 
 **Note**: From this point on, a brief summary of each section has been provided into this document. You can view the full code with all the details and comments here:📙[Project 1 - Jupyter Notebook](https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_1/Project_1.ipynb)
@@ -176,4 +176,159 @@ Recall Test Set: 	0.8
 Specificity Test Set: 	0.9534412955465587
 Trainig time (seconds): 0.003999233245849609
 ```
-  
+
+> **COMMENTS**:  
+>
+>1. **Overall Performance**:  the model demonstrates strong overall performance, as indicated by the high ROC-AUC score for the test set (**0.96**). **Accuracy** is also high at **91.96%**, meaning the model correctly classifies most instances. 
+>
+> 2. **Generalization and Overfitting**:  the comparison between training and test metrics suggests that the model **generalizes well** and **the model is not overfitted**.  
+>
+> 3. **Balance Between Precision and Recall**: the model maintains a good trade-off between correctly identifying positives and avoiding false positives.
+
+
+### 6.2. **Support Vector Machine (SVM)** <a id="svm"></a>
+
+Support Vector Machine (SVM) is a supervised learning algorithm used for classification and regression tasks. It works by finding the optimal **hyperplane** that best separates different classes in a high-dimensional space. SVM is particularly effective for high-dimensional datasets and when there is a clear margin of separation between classes.  
+
+Hyperparameters (SVM):  
+
+- `C` (Regularization Parameter):  
+  - Controls the trade-off between achieving a low error on the training set and maintaining a simpler decision boundary.  
+  - Higher values of `C` aim for a stricter classification (fewer misclassifications) but may lead to overfitting.  
+  - Typical values: `0.01` to `100`.  
+
+- `kernel`:  
+  - Defines how the input data is transformed into a higher-dimensional space.  
+  - Common choices: `'linear'`, `'poly'`, `'rbf'`, `'sigmoid'`.  
+  - `'rbf'` (Radial Basis Function) is widely used for non-linear problems.  
+
+- `gamma`:  
+  - Relevant for non-linear kernels like `'rbf'` and `'poly'`. It controls the influence of each training example.  
+  - Small values mean a broader influence, while larger values focus on individual points.  
+  - Typical values: `1e-4` to `1e1`.  
+
+```
+# Best params
+svm = SVC(C = 12.5, gamma = 0.05, probability = True)
+```
+**Results**
+
+<p align="center"> <img src="Images/svm.png" alt="Imagen" /> </p>
+
+
+```
+============ Metrics for SVM ============
+ROC-AUC Training Set: 	0.9980948044478527
+ROC-AUC Test Set: 	0.9861336032388665
+PR-AUC Training Set: 	0.9917288103943926
+PR-AUC Test Set: 	0.9481783759569237
+F1-score Training Set: 	0.9567901234567902
+F1-score Test Set: 	0.8985507246376812
+----------
+Accuracy Test Set: 	0.9558359621451105
+Precision Test Set: 	0.9117647058823529
+Recall Test Set: 	0.8857142857142857
+Specificity Test Set: 	0.9757085020242915
+Training time (seconds): 0.271578311920166
+```
+
+> **COMMENTS**:  
+> 
+> 1. **Overall Performance**: The model exhibits outstanding performance, as demonstrated by the high ROC-AUC scores for the test set (0.9861). The accuracy on the test set is also impressive at 95.58%, indicating that **the model correctly classifies the majority of instances**. 
+> 
+> 2. **Generalization and Overfitting**: The model shows a high level of generalization based on the comparison of training and test metrics and is not overfitting.
+> 
+> 3. **Balance Between Precision and Recall**: the model achieves a good trade-off between minimizing false positives and false negatives.
+
+
+### 6.3. **K-Nearest Neighbors (KNN)** <a id="knn"></a>
+
+K-Nearest Neighbors (KNN) is a non-parametric, instance-based learning algorithm used for classification and regression. It classifies new data points based on the majority class of their K nearest neighbors in the feature space.  KNN is simple, intuitive, and effective when decision boundaries are non-linear. However, it can be computationally expensive for large datasets since it requires storing all training samples and computing distances for each new prediction.  
+
+Hyperparameters:  
+
+- `n_neighbors` (K):  
+  - Defines the number of neighbors considered when making a prediction.  
+  - Smaller values lead to more flexible decision boundaries but may cause overfitting.  
+  - Typical values: `3` to `50`.  
+
+- `weights`:  
+  - Determines how neighbors contribute to the final prediction.  
+  - `'uniform'`: All neighbors have equal influence.  
+  - `'distance'`: Closer neighbors have a greater impact.  
+
+- `metric`:  
+  - Specifies the distance function used to find the nearest neighbors.  
+  - Common choices: `'euclidean'`, `'manhattan'`, `'minkowski'`.  
+  - `'euclidean'` is most commonly used for continuous data.
+ 
+```
+# Best params
+knn = KNeighborsClassifier(metric='manhattan', n_neighbors=11, weights='distance')
+```
+
+**Results**
+
+<p align="center"> <img src="Images/knn.png" alt="Imagen" /> </p>
+
+```
+============ Metrics for KNN ============
+ROC-AUC Training Set: 	0.9999986686264485
+ROC-AUC Test Set: 	0.9823163678426836
+PR-AUC Training Set: 	0.9999906193129585
+PR-AUC Test Set: 	0.9559942911480656
+F1-score Training Set: 	0.9984639016897081
+F1-score Test Set: 	0.8549019607843137
+----------
+Accuracy Test Set: 	0.9416403785488959
+Precision Test Set: 	0.9478260869565217
+Recall Test Set: 	0.7785714285714286
+Specificity Test Set: 	0.9878542510121457
+Training time (seconds): 0.30719900131225586
+```
+
+> **COMMENTS:**
+> 
+> 1. **Overall Performance**: the model performs well, with a high ROC-AUC (0.9823) and PR-AUC (0.9560) on the test set. However, **the recall is lower** (77.86%), suggesting that some positive cases are missed.
+> 
+> 2. **Generalization and Overfitting**: **the model shows signs of overfitting**, as the training ROC-AUC (0.9999) and PR-AUC (0.9999) are significantly higher than the test scores. The F1-score also drops from 0.998 in training to 0.8549 in testing, indicating that the model does not generalize perfectly and may benefit from hyperparameter tuning.
+> 
+> 3. **Balance Between Precision and Recall**: The model prioritizes precision (94.78%) over recall (77.86%), meaning it minimizes false positives but at the cost of missing some true positives (31 false negatives). 
+
+
+## 7. Overall Models Comparison <a id="comparison"></a>
+
+<p align="center"> <img src="Images/comparison_1.png" alt="Imagen" /> </p>
+<p align="center"> <img src="Images/comparison_2.png" alt="Imagen" /> </p>
+
+
+| **Metric**                    | **Naive Bayes**   | **SVM**           | **KNN**           |
+|-------------------------------|-------------------|-------------------|-------------------|
+| **ROC-AUC Test Set**           | 0.9670            | **0.9861**        | 0.9823            |
+| **PR-AUC Test Set**            | 0.8926            | 0.9482            | **0.9560**        |
+| **F1-score Test Set**          | 0.8145            | 0.8986            | **0.8549**        |
+| **Accuracy Test Set**          | 0.9196            | **0.9558**        | 0.9416            |
+| **Precision Test Set**         | 0.8296            | 0.9118            | **0.9478**        |
+| **Recall Test Set**            | 0.8000            | **0.8857**        | 0.7786            |
+| **Specificity Test Set**       | 0.9534            | 0.9757            | **0.9879**        |
+| **Training time (seconds)**    | **0.0039**        | 0.2715            | 0.3071           |
+
+> Best metrics are highlighted in bold
+
+## 8. Conclusions <a id="conclusiones"></a>
+
+In the case of 👶🏻🩺 Fetal Health Clasiffication, recall is crucial because **it's mandatory to minimize the numer of false negatives**, in order to avoid babies with an abnormal condition not being treated at time.  Given this context, even though the KNN model seems the most promising, its **recall**  is the lowest of the three, making it to miss a significant number of positive cases. For this reason, **SVM is the most appropriate model** for the task due to its superior recall and excellent performance across other metrics like ROC-AUC.
+
+
+**Final Thoughts:**
+
+- For **real-time diagnosis**, **Naive Bayes** is clearly faster and also well balanced. Although the difference in time might not seem significant, in cases where larger models when more data are used, and on smaller machines, this speed advantage could become substantial. **Naive Bayes**'s simplicity and efficiency make it a great choice for time-sensitive applications where computational resources might be limited.
+
+- In any case, it is important to emphasize that one algorithm is not always a better option than the other. **Depending on the problem to be solved**, the type of data, the number of variables, the adjustment of hyperparameters, as well as the available time and computational capacity, will play a decisive role in choosing one method over another.
+
+
+*I hope you enjoyed as much as I did :)*
+
+You can view the full code with all the details and comments here:📙[Project 1 - Jupyter Notebook](https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_1/Project_1.ipynb)
+
+Marcos.
