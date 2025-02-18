@@ -29,7 +29,6 @@ The data is available [here](https://www.tandfonline.com/doi/abs/10.3109/1476705
 
 ## Table of Contents 
 
-
 1. Exploratory Data Analysis (EDA)
 2. Outliers detection (IQR, Z-score) & Treatement.
 3. Splitting the Dataset
@@ -39,8 +38,14 @@ The data is available [here](https://www.tandfonline.com/doi/abs/10.3109/1476705
 7. Validation Report: ROC-AUC, Accuracy, F1-score, PR-AUC, etc.
 8. Conclusion
 
-
+**Note**: From this point on, a brief summary of each section has been provided into this document. You can view the full code with all the details and comments here:📘 📘
 
 ## 1. Exploratory Data Analysis (EDA)
+
+
+
+
+
+
 
 
