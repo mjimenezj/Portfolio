@@ -30,8 +30,8 @@ The data is available [here](https://www.tandfonline.com/doi/abs/10.3109/1476705
 ## Table of Contents 
 
 1. Exploratory Data Analysis (EDA)
-2. Outliers detection (IQR, Z-score) & Treatement.
-3. [Splitting the Dataset](#splitting-the-dataset)
+2. [Outliers detection (IQR, Z-score) & Treatement](#2-outliers-detection-(iqr,-z-score)-&-treatement)
+3. [Splitting the Dataset](#3-splitting-the-dataset)
 4. Feature scaling
 5. Coarse-to-Fine Hyperparameter Tuning Search.
 6. Models Training. <br>
@@ -55,7 +55,7 @@ The Pearson correlation coefficient has been calculated for the numerical variab
 > The 3 explanatory variables with the highest correlation to `Fetal_state` are **`ASTV`** (Pearson Coef. = 0.49): percentage of time with abnormal short-term variability; **`ALTV`** (Pearson Coef. = 0.48): percentage of time with abnormal long-term variability and **`AC`** (Pearson Coef. = -0.37): number of accelerations per second, counted in discrete units. 
 > On the other hand, it is worth noting that there are several strong correlations between independent variables.
 
-## 2. Outliers detection (IQR, Z-score) & Treatement.
+## 2. Outliers detection (IQR, Z-score) & Treatement
 
 Outliers were detected with two methods:
 
@@ -75,7 +75,7 @@ This is a comparison before vs after data transformation. The threshold are the 
 
 > The data transformation have drastically reduced the number of outliers present in the data.
 
-## Splitting the Dataset
+## 3. Splitting the Dataset
 
 hola hola
 
