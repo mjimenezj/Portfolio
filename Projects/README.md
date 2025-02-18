@@ -22,7 +22,7 @@ In this project, I explore the use of Supervided Classification Machine Learning
 
 ### 2. 🔬🧬 *De novo* Protein Design - Binder 
 
-Currently I am working on a project to design the binder of a protein using Deep Learning Difussion Methods:
+Currently I am working on a project to design the binder of a protein using Deep Learning Diffusion Methods:
 
 🚧🚧🚧 I expect to have the project ready by 📌 March 15th, 2025. 🚧🚧🚧 
 
