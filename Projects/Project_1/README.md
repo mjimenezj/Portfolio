@@ -31,10 +31,13 @@ The data is available [here](https://www.tandfonline.com/doi/abs/10.3109/1476705
 
 
 1. Exploratory Data Analysis (EDA)
-2. Outliers detection (IQR, Z-score) & Feature Scaling.
-3. Coarse-to-Fine Hyperparameter Tuning Search.
-4. Models Training. <br>
-5. Validation Report: ROC-AUC, Accuracy, F1-score, PR-AUC, etc.
+2. Outliers detection (IQR, Z-score) & Treatement.
+3. Splitting the Dataset
+4. Feature scaling
+5. Coarse-to-Fine Hyperparameter Tuning Search.
+6. Models Training. <br>
+7. Validation Report: ROC-AUC, Accuracy, F1-score, PR-AUC, etc.
+8. Conclusion
 
 
 
