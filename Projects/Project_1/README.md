@@ -25,7 +25,7 @@ The data is available [here](https://www.tandfonline.com/doi/abs/10.3109/1476705
 
 - Naive Bayes
 - Support Vector Machine (SVM)
-- K-nearest neighbor (KNN)
+- K-nearest neighbors (KNN)
 
 ## Table of Contents 
 
