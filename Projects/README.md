@@ -20,5 +20,9 @@ In this project, I explore the use of Supervided Classification Machine Learning
 |---|---|---|---|
 |👶🏻🩺 [Fetal Health Classification](https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_1/README.md) | Feb, 2025 | - Naive Bayes <br> - Support Vector Machine (SVM) <br> - K-Nearest Neighbors (KNN)  | 1. Exploratory Data Analysis (EDA): univariate and multivariate. <br> 2. Outliers detection (IQR, Z-score) & Treatement. <br> 3. Splitting the Dataset <br> 4. Feature scaling <br> 5. Coarse-to-Fine Hyperparameter Tuning Search. <br> 6. Models Training. <br> 7. Validation Report: ROC-AUC, Accuracy, F1-score, PR-AUC, etc. |
 
-### 2. De novo Protein Design - Binder for...
-🚧🚧🚧 soon...
+### 2. 🔬🧬 De novo Protein Design - Binder 
+
+Currently I am working on a project to design the binder of a protein using Deep Learning Difussion Methods. 
+
+🚧🚧🚧 I expect to have ready the project by March 15th, 2025. 🚧🚧🚧 
+
