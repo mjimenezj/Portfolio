@@ -29,18 +29,18 @@ The data is available [here](https://www.tandfonline.com/doi/abs/10.3109/1476705
 
 ## Table of Contents 
 
-1. Exploratory Data Analysis (EDA)
+1. [Exploratory Data Analysis (EDA)](#eda)
 2. [Outliers detection (IQR, Z-score) & Treatement](#outliers)
-3. [Splitting the Dataset](#3-splitting-the-dataset)
-4. Feature scaling
-5. Coarse-to-Fine Hyperparameter Tuning Search.
-6. Models Training. <br>
-7. Validation Report: ROC-AUC, Accuracy, F1-score, PR-AUC, etc.
-8. Conclusion
+3. [Splitting the Dataset](#splitting)
+4. [Feature scaling](#scaling)
+5. [Coarse-to-Fine Hyperparameter Tuning Search](#tuning)
+6. [Models Training](#training)
+7. [Validation Report](#report)
+8. [Conclusions](#conclusions)
 
 **Note**: From this point on, a brief summary of each section has been provided into this document. You can view the full code with all the details and comments here:📙[Project 1 - Jupyter Notebook](https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_1/Project_1.ipynb)
 
-## 1. Exploratory Data Analysis (EDA)
+## 1. Exploratory Data Analysis (EDA) <a id="eda"></a>
 
 The exploratory analysis reveals that there are 21 explanatory variables. All are quantitative, with either discrete or continuous values. The target variable 'Fetal_state' is binary, with 0 indicating a normal state and 1 indicating an abnormal state of the fetus. Its distribution is as follows:
 
@@ -75,11 +75,10 @@ This is a comparison before vs after data transformation. The threshold are the 
 
 > The data transformation have drastically reduced the number of outliers present in the data.
 
-## 3. Splitting the Dataset
+## 3. Splitting the Dataset <a id="splitting"></a>
 
 hola hola
 
-
-
+## 4. Feature scaling <a id="scaling"></a>
 
 hola
