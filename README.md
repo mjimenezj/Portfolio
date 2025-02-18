@@ -1,4 +1,4 @@
-# 🙋🏻‍♂️ Wellcome to my Data Science Portfolio! 
+# 🙋🏻‍♂️ Welcome to my Data Science Portfolio! 
 
 ![Imagen](Images/banner_portfolio.png)
 
