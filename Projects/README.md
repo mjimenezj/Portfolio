@@ -14,7 +14,7 @@
 
 Reducing child mortality is a crucial goal outlined in several of the United Nations' Sustainable Development Goals. During childbirth, it is possible to monitor the baby's health to try to diagnose their health condition.
 
-In this project, I explore the use of Supervided Classification Machine Learning Algorithms (Naive Bayes, Support Vector Machine and K-Nearest Neighbor) to predict the Fetal Health State during childbirth.
+In this project, I explore the use of Supervised Classification Machine Learning Algorithms (Naive Bayes, Support Vector Machine and K-Nearest Neighbor) to predict the Fetal Health State during childbirth.
 
 | Project Link | Completion Date | ML Algorithms |Key Steps 
 |---|---|---|---|
