@@ -24,5 +24,10 @@ In this project, I explore the use of Supervided Classification Machine Learning
 
 Currently I am working on a project to design the binder of a protein using Deep Learning Difussion Methods. 
 
-🚧🚧🚧 I expect to have ready the project by March 15th, 2025. 🚧🚧🚧 
+🚧🚧🚧 I expect to have ready the project by 📌 March 15th, 2025. 🚧🚧🚧 
 
+### Future projects
+
+📌 Apr 2025: Design and implementation of infrastructure automation on AWS.
+
+📌 May 2025: Development of a data ingestion and analysis application using Hadoop and Spark.
