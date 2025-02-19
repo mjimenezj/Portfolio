@@ -6,45 +6,66 @@
     <title>Projects Portfolio</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #ffffff;
             margin: 0;
-            padding: 0;
+            padding: 20px;
+            color: #24292e;
         }
         .container {
-            width: 70%;
+            max-width: 900px;
             margin: auto;
-            padding: 20px;
-            background: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            border-bottom: 1px solid #e1e4e8;
+            padding-bottom: 8px;
+        }
+        p, li {
+            line-height: 1.6;
         }
         .post {
-            display: flex;
+            border: 1px solid #d1d5da;
+            border-radius: 6px;
+            padding: 16px;
             margin-bottom: 20px;
-            border-bottom: 1px solid #ddd;
-            padding-bottom: 20px;
+            background-color: #f6f8fa;
             transition: transform 0.3s, box-shadow 0.3s;
         }
         .post:hover {
-            transform: scale(1.05);
+            transform: scale(1.03);
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
         }
         .post img {
-            width: 180px;
-            height: 120px;
-            object-fit: cover;
-            margin-right: 20px;
+            max-width: 100%;
+            border-radius: 6px;
+            margin-bottom: 10px;
         }
-        .post-content {
-            flex: 1;
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            background: white;
         }
-        .post h2 {
-            margin: 0;
-            font-size: 20px;
+        table, th, td {
+            border: 1px solid #d1d5da;
+            padding: 8px;
+            text-align: left;
         }
-        .post p {
-            margin: 5px 0;
-            color: #666;
+        th {
+            background-color: #f6f8fa;
+        }
+        th:nth-child(1), td:nth-child(1) {
+            width: 20%;
+        }
+        th:nth-child(2), td:nth-child(2) {
+            width: 10%;
+        }
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -62,26 +83,43 @@
         <h2>Projects</h2>
         
         <div class="post">
-            <img src="Images/fetal_health.png" alt="Fetal Health Project">
-            <div class="post-content">
-                <h2>👶🏻🫋 Fetal Health Prediction During Childbirth</h2>
-                <p>Using supervised classification algorithms to predict fetal health state during childbirth.</p>
-                <p><strong>ML Algorithms:</strong> Naive Bayes, SVM, KNN</p>
-                <p><strong>Key Steps:</strong> EDA, Outlier Detection, Feature Scaling, Hyperparameter Tuning, Model Training.</p>
-                <p><a href="https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_1/README.md">Project Link</a> | <strong>Completion Date:</strong> Feb, 2025</p>
-            </div>
+            <h2>👶🏻🩺 Fetal Health Prediction During Childbirth</h2>
+            <p>Using supervised classification algorithms to predict fetal health state during childbirth.</p>
+            <table>
+                <tr>
+                    <th><center>Project Link</center></th>
+                    <th><center>Completion Date</center></th>
+                    <th><center>ML Algorithms</center></th>
+                    <th><center>Key Steps</center></th>
+                </tr>
+                <tr>
+                    <td>👶🏻🩺<a href="https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_1/README.md">Fetal Health Classification</a></td>
+                    <td>Feb, 2025</td>
+                    <td>- Naive Bayes <br> - Support Vector Machine (SVM) <br> - K-Nearest Neighbors (KNN)</td>
+                    <td>1. Exploratory Data Analysis (EDA): univariate and multivariate. <br> 2. Outliers detection (IQR, Z-score) & Treatment. <br> 3. Splitting the Dataset. <br> 4. Feature scaling. <br> 5. Coarse-to-Fine Hyperparameter Tuning Search. <br> 6. Models Training. <br> 7. Validation Report: ROC-AUC, Accuracy, F1-score, PR-AUC, etc.</td>
+                </tr>
+            </table>
         </div>
         
         <div class="post">
+            <h2>🔬🧬 *De novo* Protein Design - Binder</h2>
+            <p>Designing a protein binder using deep learning diffusion methods.</p>
             <img src="Images/binder.png" alt="Protein Binder Design">
-            <div class="post-content">
-                <h2>🔬🧬 *De novo* Protein Design - Binder</h2>
-                <p>Designing a protein binder using deep learning diffusion methods.</p>
-                <p><strong>Software:</strong> RosettaFold Diffusion, Protein MPNN, AlphaFold 3, Linux</p>
-                <p><strong>Status:</strong> Expected Completion - March 15, 2025</p>
-            </div>
+            <table>
+                <tr>
+                    <th><center>Project Link</center></th>
+                    <th><center>Completion Date</center></th>
+                    <th><center>Software</center></th>
+                    <th><center>Status</center></th>
+                </tr>
+                <tr>
+                    <td>N/A</td>
+                    <td>Mar, 2025</td>
+                    <td>RosettaFold Diffusion, Protein MPNN, AlphaFold 3, Linux</td>
+                    <td>Expected Completion - March 15, 2025</td>
+                </tr>
+            </table>
         </div>
     </div>
 </body>
 </html>
-
