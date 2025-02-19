@@ -25,33 +25,43 @@
             line-height: 1.6;
         }
         .post {
+            display: flex;
             border: 1px solid #d1d5da;
             border-radius: 6px;
             padding: 16px;
+            padding-bottom: 20px;
             margin-bottom: 20px;
             background-color: #f6f8fa;
             transition: transform 0.3s, box-shadow 0.3s;
+            max-height: 400px;
         }
         .post:hover {
             transform: scale(1.03);
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
         }
         .post img {
-            max-width: 100%;
-            border-radius: 6px;
-            margin-bottom: 10px;
+            height: 400px;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+        .post-content {
+            flex: 1;
+	    overflow: auto;
+	    max-height: 400px;
+	    font-size: 14px;
         }
         table {
             width: 100%;
             border-collapse: collapse;
             margin-top: 10px;
             background: white;
-	    table-layout: fixed;
+            table-layout: fixed;
         }
         table, th, td {
             border: 1px solid #d1d5da;
             padding: 8px;
             text-align: left;
+            word-wrap: break-word;
         }
         th {
             background-color: #f6f8fa;
@@ -61,6 +71,9 @@
         }
         th:nth-child(2), td:nth-child(2) {
             width: 10%;
+        }
+        th:nth-child(3), td:nth-child(1) {
+            width: 25%;
         }
         a {
             color: #0366d6;
@@ -85,45 +98,48 @@
         <h2>Projects</h2>
         
         <div class="post">
-            <h2>1. 👶🏻🩺 Fetal Health Prediction During Childbirth</h2>
-            <p>In this project, I explore the use of Supervised Classification Machine Learning Algorithms (Naive Bayes, Support Vector Machine and K-Nearest Neighbors) to predict the Fetal Health State during childbirth.</p>
-            <table>
-                <tr>
-                    <th><center>Project Link</center></th>
-                    <th><center>Completion Date</center></th>
-                    <th><center>ML Algorithms</center></th>
-                    <th><center>Key Steps</center></th>
-                </tr>
-                <tr>
-                    <td>👶🏻🩺<a href="https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_1/README.md">Fetal Health Classification</a></td>
-                    <td>Feb, 2025</td>
-                    <td>- Naive Bayes <br> - Support Vector Machine (SVM) <br> - K-Nearest Neighbors (KNN)</td>
-                    <td>1. Exploratory Data Analysis (EDA): univariate and multivariate. <br> 2. Outliers detection (IQR, Z-score) & Treatment. <br> 3. Splitting the Dataset. <br> 4. Feature scaling. <br> 5. Coarse-to-Fine Hyperparameter Tuning Search. <br> 6. Models Training. <br> 7. Validation Report: ROC-AUC, Accuracy, F1-score, PR-AUC, etc.</td>
-                </tr>
-            </table>
+	        <div class="post-content">
+            	<h2>1. 👶🏻🩺 <a href="https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_1/README.md"> Fetal Health Prediction During Childbirth</a></h2>
+	    	<p>In this project, I explore the use of Supervised Classification Machine Learning Algorithms (Naive Bayes, Support Vector Machine and K-Nearest Neighbors) to predict the Fetal Health State during childbirth.</p>
+            	<table>
+                	<tr>
+                    	<th><center>Project Link</center></th>
+                    	<th><center>Completion Date</center></th>
+                    	<th><center>ML Algorithms</center></th>
+                    	<th><center>Key Steps</center></th>
+                	</tr>
+                	<tr>
+                    	<td><center>👶🏻🩺 <a href="https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_1/README.md"> Fetal Health Prediction During Childbirth</a></center></td>
+                    	<td><center>Feb, 2025</center></td>
+                    	<td>- Naive Bayes <br> - Support Vector Machine (SVM) <br> - K-Nearest Neighbors (KNN)</td>
+                    	<td>1. Exploratory Data Analysis (EDA): univariate and multivariate. <br> 2. Outliers detection (IQR, Z-score) & Treatment. <br> 3. Splitting the Dataset. <br> 4. Feature scaling. 	<br> 5. Coarse-to-Fine Hyperparameter Tuning Search. <br> 6. Models Training. <br> 7. Validation Report: ROC-AUC, Accuracy, F1-score, PR-AUC, etc.</td>
+                	</tr>
+            	</table>
+                </div>
         </div>
-        
         <div class="post">
-            <h2>2. 🔬🧬 <i>De novo</i> Protein Design - Binder</h2>
-            <p>Currently I am working on a project to design the binder of a protein using Deep Learning Diffusion Methods:</p>
-	    <p>🚧🚧🚧 I expect to have the project ready by 📌 March 15th, 2025. 🚧🚧🚧</p>
-            <table>
-                <tr>
-                    <th><center>Project Link</center></th>
-                    <th><center>Completion Date</center></th>
-                    <th><center>Software</center></th>
-                    <th><center>Key Steps</center></th>
-                </tr>
-                <tr>
-                    <td>🔬🧬 De novo Protein Design</td>
-                    <td>Mar, 2025</td>
-                    <td>RosettaFold Diffusion, Protein MPNN, AlphaFold 3, Linux</td>
-                    <td><img src="Projects/Images/binder.png" alt="Protein Binder Design"></td>
-                </tr>
-            </table>
-	    <blockquote style="font-style: italic; color: #555;">
-        	> Image Source: Bennett, N. R. <em>et al.</em>, & Baker, D. (2023). Improving de novo protein binder design with deep learning. <em>Nature Communications</em>, 14(1), 2625.
-            </blockquote>
+                <div class="post-content">
+            	<h2>2. 🔬🧬 <i>De novo</i> Protein Design - Binder</h2>
+            	<p>Currently I am working on a project to design the binder of a protein using Deep Learning Diffusion Methods:</p>
+	    	<p>🚧🚧🚧 I expect to have the project ready by 📌 March 15th, 2025. 🚧🚧🚧</p>
+            	<table>
+                	<tr>
+                    	<th><center>Project Link</center></th>
+                    	<th><center>Completion Date</center></th>
+                    	<th><center>Tools</center></th>
+                    	<th><center>Key Steps</center></th>
+                	</tr>
+                	<tr>
+                    	<td><center>🔬🧬 <i>De novo</i> Protein Design - Binder</center></td>
+                    	<td><center>Mar, 2025</center></td>
+                    	<td>- RosettaFold Diffusion <br> - Protein MPNN <br> - AlphaFold 3 <br> - Linux</td>
+                    	<td><img src="Projects/Images/binder.png" alt="Protein Binder Design"></td>
+                	</tr>
+            	</table>
+	    	<blockquote style="font-style: italic; color: #555;">
+        		> Image Source: Bennett, N. R. <em>et al.</em>, & Baker, D. (2023). Improving de novo protein binder design with deep learning. <em>Nature Communications</em>, 14(1), 2625.
+            	</blockquote>
+                </div>
         </div>
         <h3> Future Projects</h3>
 	<p> 📌 Apr 2025: Design and implementation of infrastructure automation on AWS.</p>
