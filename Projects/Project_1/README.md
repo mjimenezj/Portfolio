@@ -27,6 +27,10 @@ The data is available [here](https://www.tandfonline.com/doi/abs/10.3109/1476705
 - Support Vector Machine (SVM)
 - K-nearest neighbors (KNN)
 
+## 📋 Key Concepts
+
+*EDA, Outliers, Binning, Winsorization, Stratified sampling, Data leakage, Hyperparameter Tunning, Stratified cross-validation, Overfitting.*
+
 ## Table of Contents 
 
 1. [Exploratory Data Analysis (EDA)](#eda)
@@ -105,7 +109,7 @@ Feature scaling in machine learning is a crucial step in data pre-processing bef
 
 *You can read more about different scalers in https://scikit-learn.org/stable/modules/preprocessing.html*
 
-> Note: **Data leakage** occurs when information from the test set or future data influences the model during training, leading to unrealistic results and biased model evaluation. This happens when the model has access to data it shouldn't, such as performing preprocessing (e.g., feature scaling) before splitting the dataset, or including features that are improperly correlated with the target.
+> Note: **Data Leakage** occurs when information from the test set or future data influences the model during training, leading to unrealistic results and biased model evaluation. This happens when the model has access to data it shouldn't, such as performing preprocessing (e.g., feature scaling) before splitting the dataset, or including features that are improperly correlated with the target.
 
 > Avoiding data leakage is crucial for obtaining an accurate evaluation of the model's performance on unseen data and **this is why Feature Scaling should be made after splitting the dataset**
 
@@ -317,7 +321,7 @@ Training time (seconds): 0.30719900131225586
 
 > Best metrics are highlighted in bold
 
-## 8. Conclusions <a id="conclusiones"></a>
+## 8. Conclusions <a id="conclusions"></a>
 
 In the case of 👶🏻🩺 Fetal Health Clasiffication, recall is crucial because **it's mandatory to minimize the numer of false negatives**, in order to avoid babies with an abnormal condition not being treated at time.  Given this context, even though the KNN model seems the most promising, its **recall**  is the lowest of the three, making it to miss a significant number of positive cases. For this reason, **SVM is the most appropriate model** for the task due to its superior recall and excellent performance across other metrics like ROC-AUC.
 
