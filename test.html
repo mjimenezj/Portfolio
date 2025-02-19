@@ -33,21 +33,21 @@
             margin-bottom: 20px;
             background-color: #f6f8fa;
             transition: transform 0.3s, box-shadow 0.3s;
-            max-height: 400px;
+            min-height: 400px; <!-- con esto controlas el tamaño de la caja, puedes fijar maxino o minimo si lo prefieres con min-height -->
         }
         .post:hover {
             transform: scale(1.03);
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
         }
-        .post img {
-            height: 400px;
-            object-fit: cover;
-            margin-right: 20px;
-        }
+<!--        .post img { -->
+<!--            height: 400px; -->
+<!--            object-fit: cover; -->
+<!--            margin-right: 20px; -->
+<!--        } -->
         .post-content {
             flex: 1;
 	    overflow: auto;
-	    max-height: 400px;
+	    min-height: 400px; <!-- con esto controlas el tamaño de la sub-caja, puedes fijar maxino o minimo si lo prefieres con min-height -->
 	    font-size: 14px;
         }
         table {
@@ -133,7 +133,7 @@
                     	<td><center>🔬🧬 <i>De novo</i> Protein Design - Binder</center></td>
                     	<td><center>Mar, 2025</center></td>
                     	<td>- RosettaFold Diffusion <br> - Protein MPNN <br> - AlphaFold 3 <br> - Linux</td>
-                    	<td><img src="Projects/Images/binder.png" alt="Protein Binder Design"></td>
+                    	<td><img src="Projects/Images/binder.png" alt="Protein Binder Design" style="max-width: 100%;"> </td>  <!-- height = "100"  width="300" --> 
                 	</tr>
             	</table>
 	    	<blockquote style="font-style: italic; color: #555;">
@@ -148,3 +148,4 @@
 
 </body>
 </html>
+                	
