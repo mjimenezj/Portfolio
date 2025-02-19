@@ -333,7 +333,7 @@ In the case of 👶🏻🩺 Fetal Health Prediction, recall is crucial because *
 - In any case, it is important to emphasize that one algorithm is not always a better option than the other. **Depending on the problem to be solved**, the type of data, the number of variables, the adjustment of hyperparameters, as well as the available time and computational capacity, will play a decisive role in choosing one method over another.
 
 
-*I hope you enjoyed as much as I did :)*
+*I hope you enjoyed the reading as much as I did :)*
 
 You can view the full code with all the details and comments here:📙[Project 1 - Jupyter Notebook](https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_1/Project_1.ipynb)
 
