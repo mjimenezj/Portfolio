@@ -28,9 +28,7 @@ Currently I am working on a project to design the binder of a protein using Deep
 
 | Project Link | Completion Date | Software |Key Steps 
 |---|---|---|---|
-| 🔬🧬 *De novo* Protein Design | 🚧 Mar, 2025 🚧 | - RosettaFold Difussion <br> - Portein MPNN <br> - AlphaFold 3 <br> - Linux  | <img src="Images/binder.png" alt="Imagen" width="500" />|
-
-> Image Source: Bennett, N. R. *et al.*, & Baker, D. (2023). Improving de novo protein binder design with deep learning. *Nature Communications*, 14(1), 2625.
+| 🔬🧬 *De novo* Protein Design | 🚧 Mar, 2025 🚧 | - RosettaFold Difussion <br> - Portein MPNN <br> - AlphaFold 3 <br> - Linux  | soon|
 
 ### Future projects
 
