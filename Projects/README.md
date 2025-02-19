@@ -18,7 +18,7 @@ In this project, I explore the use of Supervised Classification Machine Learning
 
 | Project Link | Completion Date | ML Algorithms |Key Steps 
 |---|---|---|---|
-|👶🏻🩺 [Fetal Health Classification](https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_1/README.md) [test](https://mjimenezj.github.io/Portfolio/Projects/Projects_1/README.md)| Feb, 2025 | - Naive Bayes <br> - Support Vector Machine (SVM) <br> - K-Nearest Neighbors (KNN)  | 1. Exploratory Data Analysis (EDA): univariate and multivariate. <br> 2. Outliers detection (IQR, Z-score) & Treatement. <br> 3. Splitting the Dataset. <br> 4. Feature scaling. <br> 5. Coarse-to-Fine Hyperparameter Tuning Search. <br> 6. Models Training. <br> 7. Validation Report: ROC-AUC, Accuracy, F1-score, PR-AUC, etc. |
+|👶🏻🩺 [Fetal Health Classification](https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_1/README.md) [test](https://mjimenezj.github.io/Portfolio/blob/main/Projects/Projects_1/README.md)| Feb, 2025 | - Naive Bayes <br> - Support Vector Machine (SVM) <br> - K-Nearest Neighbors (KNN)  | 1. Exploratory Data Analysis (EDA): univariate and multivariate. <br> 2. Outliers detection (IQR, Z-score) & Treatement. <br> 3. Splitting the Dataset. <br> 4. Feature scaling. <br> 5. Coarse-to-Fine Hyperparameter Tuning Search. <br> 6. Models Training. <br> 7. Validation Report: ROC-AUC, Accuracy, F1-score, PR-AUC, etc. |
 
 ### 2. 🔬🧬 *De novo* Protein Design - Binder 
 
