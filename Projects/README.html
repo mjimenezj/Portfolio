@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects Portfolio</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 20px;
+            color: #24292e;
+	    font-size: 16px; 
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+        }
+        h1, h2 {
+            border-bottom: 1px solid #e1e4e8;
+            padding-bottom: 8px;
+        }
+        p, li {
+            line-height: 1.6;
+        }
+        .post {
+            display: flex;
+            border: 1px solid #d1d5da;
+            border-radius: 6px;
+            padding: 16px;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+            background-color: #f6f8fa;
+            transition: transform 0.3s, box-shadow 0.3s;
+            max-height: 400px;
+        }
+        .post:hover {
+            transform: scale(1.03);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        .post img {
+            height: 400px;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+        .post-content {
+            flex: 1;
+	    overflow: auto;
+	    max-height: 400px;
+	    font-size: 14px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            background: white;
+            table-layout: fixed;
+        }
+        table, th, td {
+            border: 1px solid #d1d5da;
+            padding: 8px;
+            text-align: left;
+            word-wrap: break-word;
+        }
+        th {
+            background-color: #f6f8fa;
+        }
+        th:nth-child(1), td:nth-child(1) {
+            width: 12%;
+        }
+        th:nth-child(2), td:nth-child(2) {
+            width: 33%;
+        }
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📚 Welcome to the Projects section</h1>
+        <p>🚧 As I continue learning and refining my skills, this repository is a work in progress, so I am constantly adding updates and new projects! 🚀</p>
+        
+        <h2>What's inside?</h2>
+        <ul>
+            <li>📊 This portfolio includes some of the projects I've worked on, showcasing my skills as a Data Scientist.</li>
+            <li>🎓 I learned a lot from each project, so I hope you enjoy them as much as I did :).</li>
+        </ul>
+        
+        <h2>Projects</h2>
+        
+        <div class="post">
+	    <a href="https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_1/README.md"> 
+	    <img src=""Projects/Images/header_project_1" " alt="Protein Binder Design" width="200">
+	    </a>
+            <div class="post-content">
+            	<h2>1. 👶🏻🩺 <a href="https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_1/README.md"> Fetal Health Prediction During Childbirth</a></h2>
+	    	<p>In this project, I explore the use of Supervised Classification Machine Learning Algorithms (Naive Bayes, Support Vector Machine and K-Nearest Neighbors) to predict the Fetal Health State during childbirth.</p>
+            	<table>
+                	<tr>
+                    	<th><center>Completion Date</center></th>
+                    	<th><center>ML Algorithms</center></th>
+                    	<th><center>Key Steps</center></th>
+                	</tr>
+                	<tr>
+                    	<td><center>Feb, 2025</center></td>
+                    	<td>- Naive Bayes <br> - Support Vector Machine (SVM) <br> - K-Nearest Neighbors (KNN)</td>
+                    	<td>1. Exploratory Data Analysis (EDA): univariate and multivariate. <br> 2. Outliers detection (IQR, Z-score) & Treatment. <br> 3. Splitting the Dataset. <br> 4. Feature scaling. 	<br> 5. Coarse-to-Fine Hyperparameter Tuning Search. <br> 6. Models Training. <br> 7. Validation Report: ROC-AUC, Accuracy, F1-score, PR-AUC, etc.</td>
+                	</tr>
+            	</table>
+                </div>
+        </div>
+        <div class="post">
+            <img src=src="Projects/Images/header_project_2" alt="Protein Binder Design" width="200">
+            <div class="post-content">
+            	<h2>2. 🔬🧬 <i>De novo</i> Protein Design - Binder</h2>
+            	<p>Currently I am working on a project to design the binder of a protein using Deep Learning Diffusion Methods:</p>
+	    	<p>🚧🚧🚧 I expect to have the project ready by 📌 March 15th, 2025. 🚧🚧🚧</p>
+            	<table>
+                	<tr>
+                    	<th><center>Completion Date</center></th>
+                    	<th><center>Software</center></th>
+                    	<th><center>Key Steps</center></th>
+                	</tr>
+                	<tr>
+                    	<td><center>Mar, 2025</center></td>
+                    	<td>RosettaFold Diffusion, Protein MPNN, AlphaFold 3, Linux</td>
+                    	<td>incompleto</td>
+                	</tr>
+            	</table>
+	    	<blockquote style="font-style: italic; color: #555;">
+        		> Image Source: Bennett, N. R. <em>et al.</em>, & Baker, D. (2023). Improving de novo protein binder design with deep learning. <em>Nature Communications</em>, 14(1), 2625.
+            	</blockquote>
+                </div>
+        </div>
+        <h3> Future Projects</h3>
+	<p> 📌 Apr 2025: Design and implementation of infrastructure automation on AWS.</p>
+        <p> 📌 May 2025: Development of a data ingestion and analysis application using Hadoop and Spark.</p>
+    </div>
+
+</body>
+</html>
