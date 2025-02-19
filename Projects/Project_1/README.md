@@ -323,7 +323,7 @@ Training time (seconds): 0.30719900131225586
 
 ## 8. Conclusions <a id="conclusions"></a>
 
-In the case of 👶🏻🩺 Fetal Health Prediction, recall is crucial because **it's mandatory to minimize the numer of false negatives**, in order to avoid babies with an abnormal condition not being treated at time.  Given this context, even though the KNN model seems the most promising, its **recall**  is the lowest of the three, making it to miss a significant number of positive cases. For this reason, **SVM is the most appropriate model** for the task due to its superior recall and excellent performance across other metrics like ROC-AUC.
+In the case of 👶🏻🩺 Fetal Health Prediction, recall is crucial because **it's mandatory to minimize the number of false negatives**, in order to avoid babies with an abnormal condition not being treated at time.  Given this context, even though the KNN model seems the most promising, its **recall**  is the lowest of the three, making it to miss a significant number of positive cases. For this reason, **SVM is the most appropriate model** for the task due to its superior recall and excellent performance across other metrics like ROC-AUC.
 
 
 **Final Thoughts:**
