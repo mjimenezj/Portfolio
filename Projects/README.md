@@ -1,4 +1,4 @@
-# 📚 Welcome to the Projects section
+# 📚 Welcome to the Projects Section
 
 🚧 As I continue learning and refining my skills, this repository is a work in progress, so I am constantly adding updates and new projects! 🚀
 
