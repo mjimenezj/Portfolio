@@ -18,13 +18,19 @@ In this project, I explore the use of Supervised Classification Machine Learning
 
 | Project Link | Completion Date | ML Algorithms |Key Steps 
 |---|---|---|---|
-|👶🏻🩺 [Fetal Health Classification](https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_1/README.md) | Feb, 2025 | - Naive Bayes <br> - Support Vector Machine (SVM) <br> - K-Nearest Neighbors (KNN)  | 1. Exploratory Data Analysis (EDA): univariate and multivariate. <br> 2. Outliers detection (IQR, Z-score) & Treatement. <br> 3. Splitting the Dataset <br> 4. Feature scaling <br> 5. Coarse-to-Fine Hyperparameter Tuning Search. <br> 6. Models Training. <br> 7. Validation Report: ROC-AUC, Accuracy, F1-score, PR-AUC, etc. |
+|👶🏻🩺 [Fetal Health Classification](https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_1/README.md) | Feb, 2025 | - Naive Bayes <br> - Support Vector Machine (SVM) <br> - K-Nearest Neighbors (KNN)  | 1. Exploratory Data Analysis (EDA): univariate and multivariate. <br> 2. Outliers detection (IQR, Z-score) & Treatement. <br> 3. Splitting the Dataset. <br> 4. Feature scaling. <br> 5. Coarse-to-Fine Hyperparameter Tuning Search. <br> 6. Models Training. <br> 7. Validation Report: ROC-AUC, Accuracy, F1-score, PR-AUC, etc. |
 
 ### 2. 🔬🧬 *De novo* Protein Design - Binder 
 
 Currently I am working on a project to design the binder of a protein using Deep Learning Diffusion Methods:
 
-🚧🚧🚧 I expect to have the project ready by 📌 March 15th, 2025. 🚧🚧🚧 
+🚧🚧🚧 I expect to have the project ready by 📌 March 15th, 2025. 🚧🚧🚧
+
+| Project Link | Completion Date | Software |Key Steps 
+|---|---|---|---|
+| 🔬🧬 *De novo* Protein Design | 🚧 Mar, 2025 🚧 | - RosettaFold Difussion <br> - Portein MPNN <br> - AlphaFold 3 <br> - Linux  | <img src="Images/binder.png" alt="Imagen" width="500" />|
+
+> Image Source: Bennett, N. R. *et al.*, & Baker, D. (2023). Improving de novo protein binder design with deep learning. *Nature Communications*, 14(1), 2625.
 
 ### Future projects
 
