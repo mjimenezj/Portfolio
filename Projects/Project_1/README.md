@@ -1,4 +1,6 @@
 
+[Go to Projects section](https://mjimenezj.github.io/Portfolio/Projects.html)
+
 # 👶🏻🩺 Fetal Health Prediction During Childbirth
 
 ## Context
