@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Blogs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 70%;
+            margin: auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .post {
+            display: flex;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .post:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        .post img {
+            width: 180px;
+            height: 120px;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+        .post-content {
+            flex: 1;
+        }
+        .post h2 {
+            margin: 0;
+            font-size: 20px;
+        }
+        .post p {
+            margin: 5px 0;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="post">
+            <img src="image1.jpg" alt="Imagen 1">
+            <div class="post-content">
+                <h2>How I Rest From Work</h2>
+                <p>Descripción breve del artículo...</p>
+                <p><small>2025/Feb/18 - 4 minutos de lectura</small></p>
+            </div>
+        </div>
+        <div class="post">
+            <img src="image2.jpg" alt="Imagen 2">
+            <div class="post-content">
+                <h2>The Best Organizer Software</h2>
+                <p>Descripción breve del artículo...</p>
+                <p><small>2025/Feb/18 - 4 minutos de lectura</small></p>
+            </div>
+        </div>
+        <div class="post">
+            <img src="image3.jpg" alt="Imagen 3">
+            <div class="post-content">
+                <h2>How To Start Programming</h2>
+                <p>Descripción breve del artículo...</p>
+                <p><small>2025/Feb/18 - 4 minutos de lectura</small></p>
+            </div>
+        </div>
+        <div class="post">
+            <img src="image4.jpg" alt="Imagen 4">
+            <div class="post-content">
+                <h2>10 Tips To Improve Your Workflow</h2>
+                <p>Descripción breve del artículo...</p>
+                <p><small>2025/Feb/18 - 4 minutos de lectura</small></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
