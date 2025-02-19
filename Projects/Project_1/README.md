@@ -1,5 +1,5 @@
 
-[Go to Projects section](https://mjimenezj.github.io/Portfolio/Projects.html)
+[Go back to the Projects List](https://mjimenezj.github.io/Portfolio/Projects.html)
 
 # 👶🏻🩺 Fetal Health Prediction During Childbirth
 
