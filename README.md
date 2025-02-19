@@ -12,6 +12,8 @@ My research has awakened my interest in the world of Data Science. I am currentl
 
 Checkout my portfolio, where I showcase my [projects](https://github.com/mjimenezj/Portfolio/blob/main/Projects/README.md).
 
+Checkout my portfolio, where I showcase my [test](https://mjimenezj.github.io/Portfolio/test.html).
+
 ### 🛠️ Tools I am Skilled in
 
 - Programming Languages: Python, SQL, LaTeX.
