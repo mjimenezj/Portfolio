@@ -66,7 +66,9 @@ Outliers were detected with two methods:
 
 - **Z-score**: This calculates how many standard deviations each value is from the mean. In other words, the mean will be at 0, the standard deviation at ± 1, and the values will be distributed in a range from +infinity to -infinity, being positive if greater than the mean and negative if less than the mean. It is common to use a threshold of ± 3 to detect outliers.
 
-**Feature Transformation**: after outliers detection, some variables were transfored by one of the following methods:
+**FEATURE TRANSFORMATION**
+
+After outliers were detected, some variables were transfored by one of the following methods:
 - Logarithmic transformation
 - Root square
 - Binning
