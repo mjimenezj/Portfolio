@@ -337,7 +337,7 @@ In the case of 👶🏻🩺 Fetal Health Prediction, recall is crucial because *
 
 *I hope you enjoyed the reading as much as I did :)*
 
-You can view the full code with all the details and comments here:📙[Project 1 - Jupyter Notebook](https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_1/Project_1.ipynb)
+You can view the full code with more details and comments here:📙[Project 1 - Jupyter Notebook](https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_1/Project_1.ipynb)
 
 Marcos.
 
