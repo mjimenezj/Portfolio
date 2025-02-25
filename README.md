@@ -1,5 +1,3 @@
-<link rel="icon" type="image/png" href="https://abs.twimg.com/emoji/v2/72x72/1f64b-1f3fb-200d-2642-fe0f.png">
-
 # 🙋🏻‍♂️ Welcome to my Data Science Portfolio! 
 
 ![Imagen](Images/banner_portfolio.png)
