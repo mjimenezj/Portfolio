@@ -10,5 +10,3 @@
 <br>
 
 Please, visit 🔗[List of Projects](https://mjimenezj.github.io/Portfolio/Projects.html) for the full list of projects. 
-
-Thank you :)
