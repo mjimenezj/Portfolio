@@ -14,13 +14,13 @@ Checkout my portfolio, where I showcase my [Projects](https://mjimenezj.github.i
 
 ### 🛠️ Tools I am Skilled in
 
-- Programming Languages: Python, SQL, LaTeX.
+- Programming Languages: Python, R, SQL, Bash, LaTeX.
 - Data Preprocessing: outliers detection, feature scaling & dimensionality reduction.
 - Skilled in: Pandas, Numpy, Scikit-learn, Matplotlib, Seaborn.
 - Machine Learning Algorithms: Linear and Logistic Regressions, Naive Bayes, SVM, KNN, Softmax, Decision Trees, K-Means clustering, Random Forest, XGBoost, CatBoost, PCA.
 - Databases: PostgreSQL, MySQL, MongoDB.
 - Others: Linux, Git, API REST.
-- Structural Biology Software: Chimera X, AlphaFold 3, ESMFold, OMEGAFold, ProteinMPNN, LigandMPNN RosettaFoldDiffusion. 
+- Structural Biology Software: Chimera X, AlphaFold 3, ESMFold, OMEGAFold, ProteinMPNN, LigandMPNN, RosettaFoldDiffusion. 
 
 
 ### 🧬 My Scientific Publications
