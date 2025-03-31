@@ -480,7 +480,7 @@ Output:
 <p align="center"> <img src="Images/af3_filtered_table.png" alt="Imagen" width="800" /> </p>
 
 
-A continuacion se muestran las imágenes de la mejor secuencia de los 3 mejores binders:
+Below are the structures for the best sequence from the top 3 binders:
 
 
 <p align="center"> <img src="Images/af_3_round_1_best.png" alt="Imagen" width="800" /> </p>
