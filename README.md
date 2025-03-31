@@ -19,7 +19,7 @@ Checkout my portfolio, where I showcase my [Projects](https://mjimenezj.github.i
 - Skilled in: Pandas, Numpy, Scikit-learn, Matplotlib, Seaborn.
 - Machine Learning Algorithms: Linear and Logistic Regressions, Naive Bayes, SVM, KNN, Softmax, Decision Trees, K-Means clustering, Random Forest, XGBoost, CatBoost, PCA.
 - Databases: PostgreSQL, MySQL, MongoDB.
-- Others: Linux, Git, API REST.
+- Others: Linux, Git, AWS (initiated).
 - Structural Biology Software: Chimera X, AlphaFold 3, ESMFold, OMEGAFold, ProteinMPNN, LigandMPNN, RosettaFoldDiffusion. 
 
 
