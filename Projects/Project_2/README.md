@@ -26,7 +26,7 @@
 ## Software
 
 - RosettaFold Diffusion
-- Protein MPNN
+- ProteinMPNN
 - AlphaFold 3
 - Linux/Bash
 - Python
