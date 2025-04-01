@@ -197,9 +197,9 @@ Below are displayed all the generated models:
 
 <p align="center"> <img src="Images/all_binders.png" alt="Imagen" width="600" /> </p>  
 
-Two characteristics are observed:  
+Two characteristics can be observed:  
 
-- The first is that RFDiffusion tends to favor alpha-helices over beta-sheets. To address this, the model `inference.ckpt_override_path=models/Complex_beta_ckpt.pt` can be used. However, it has not been extensively validated experimentally, so I have decided not to use it.  
+- The first is that RFDiffusion tends to favor alpha-helices over beta-sheets. To change this behavior, the model `inference.ckpt_override_path=models/Complex_beta_ckpt.pt` can be used. However, it has not been extensively validated experimentally, so I have decided not to use it.  
 - Second, not all structures will be valid as binders, as some are too elongated (i.e., model nº 10 or 18) and will not specifically bind to PD-1. Although with only 20 structures it is possible to filter visually the best ones, a criterion can be established. The **radius of gyration** is used to determine how compact a protein is, so let's use it.  
 
 > **Note:** if desired, binders can be designed *a priori* by setting a radius of gyration threshold.  
