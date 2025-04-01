@@ -561,7 +561,8 @@ The structural exploration shows an impressive fit between the binder and PD-1. 
 
 This project ends here; however, it is important to take away several ✏️key insights:
 
-- Ideally, several candidate binders should be experimentally purified in the lab to test whether the interaction occurs. Measurements such as Dissociation constant (KD) are key to determining this.  
+- Ideally, it would be necessary to generate at least 1,000 binders and conduct multiple refinement rounds until converging on the best possible solution.
+- In addition, several candidate binders should be experimentally purified in the lab to test whether the interaction occurs. Measurements such as Dissociation constant (KD) are key to determining this.  
 - Metrics based on AlphaFold models (iPTM, pTM, pAE, pLDDT,...) have proven to be very useful, but there are also cases where a more rational design approach has performed better. For example, in a binder competition organized by *Adaptyv Bio*, the company *Cradle* achieved the best binder (with KD values in the nanomolar range). Instead of designing a binder from scratch, they used an antibody sequence as an initial template and kept the CDRs fixed. **This approach highlights the importance of exploring multiple methods to find real solutions** . Read more here: [Cradle - Optimizing Cetuximab](https://www.cradle.bio/blog/adaptyv2)
 
 
