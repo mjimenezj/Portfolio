@@ -6,7 +6,6 @@ Hello, I'm Marcos. I am a passionate scientist with more than 5 years of researc
 
 My research has awakened my interest in the world of Data Science. I am currently enrolled in an online MSc in Data Science and I want to share some of the projects I am working on here. I hope you enjoy reading the projects as much as I did creating them :).
 
-<p align="center"><em> "The most powerful algorithm is a curious mind". </em> </p>
 
 ### 📚 My Projects
 
