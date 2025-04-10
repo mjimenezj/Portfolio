@@ -420,17 +420,17 @@ SLISLQTRLDNLETVRRLMDFADPAVRAAAAAASPAERAALVLGAAYVMAALLGTADVAALAARLAAASLDERAAAAAAA
 ...
 ```
 
-In order to analyze the results, the FASTA files for each model have been parsed, and the data has been entered into a table, ranked by the proteinMPNN score (the higher the better). **You can see the Python code for parsing here**: 📙[Jupyter Notebook - analysis_mpnn.ipynb](https://github.com/mjimenezj/test/blob/main/Project_2/Notebooks/analysis_mpnn.ipynb) 
+In order to analyze the results, the FASTA files for each model were parsed, and the data was entered into a table, ranked by the proteinMPNN score (the lower, the better). **You can see the Python code for parsing here**: 📙[Jupyter Notebook - analysis_mpnn.ipynb](https://github.com/mjimenezj/test/blob/main/Project_2/Notebooks/analysis_mpnn.ipynb) 
 
 - First rows of the Results for Binder 1:
 
-| **Sample**   | **Sequence** | **Mutations** | **Count** | **Score** | **Global Score** | **Seq Recovery** | **Temperature** |
-|------------|------------|------------|--------|--------|--------------|--------------|--------------|
-| Sample_50  | ASIRAAMEAER... | G1A, G2S, G3I, G... | 1 | 1.3387 | 1.6190 | 0.0227 | 0.3 |
-| Sample_26  | SSIAASFRLSQ... | G1S, G2S, G3I, G... | 1 | 1.3350 | 1.6082 | 0.0227 | 0.3 |
-| Sample_37  | EELSTSFSSDQ... | G1E, G2E, G3L, G... | 1 | 1.3305 | 1.6008 | 0.0227 | 0.3 |
-| Sample_45  | SEISQQMRKQN... | G1S, G2E, G3I, G... | 1 | 1.3151 | 1.6047 | 0.0227 | 0.3 |
-| Sample_27  | SAIASAFRQEN... | G1S, G2A, G3I, G... | 1 | 1.3141 | 1.5980 | 0.0227 | 0.3 |
+| **Identifier** | **Sequence** | **Mutations** | **Count** | **Score** | **Global Score** | **Seq Recovery** | **Temperature** |
+|----------------|-------------|---------------|-----------|-----------|------------------|------------------|-----------------|
+| Sample_19 | SAIAAATAAANA... | G1S, G2A, G3I, G... | 1 | 0.9915 | 1.4480 | 0.0341 | 0.1 |
+| Sample_46 | AAIAAATRAALA... | G1A, G2A, G3I, G... | 1 | 0.9994 | 1.4830 | 0.0114 | 0.1 |
+| Sample_39 | SALAAAFAAARA... | G1S, G2A, G3L, G... | 1 | 1.0035 | 1.4662 | 0.0341 | 0.1 |
+| Sample_13 | SSLAAAFRAELR... | G1S, G2S, G3L, G... | 1 | 1.0048 | 1.4577 | 0.0227 | 0.1 |
+| Sample_27 | AALRAAHEAALR... | G1A, G2A, G3L, G... | 1 | 1.0119 | 1.4618 | 0.0227 | 0.1 |
 | ...        | ...        | ...        | ...    | ...    | ...          | ...          | ... |
 
 <p align="center"> <img src="Images/mpnn_filter.png" alt="Imagen" width="800" /> </p>
