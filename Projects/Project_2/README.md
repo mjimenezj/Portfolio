@@ -503,7 +503,14 @@ The best structures of the three selected binders were passed back to ProteinMPN
         --sampling_temp "0.1 0.2 0.3"
   ```
 
-- Sequence Analysis. selection of the top 5 sequences per binder (as done in the first round).
+- Sequence Analysis. Selection of the top 5 sequences per binder (as done in the first round). The score range for each binder in this second round has been:
+  
+| **Binder**     | **Min_Score** | **Max_Score** |
+|----------------|---------------|---------------|
+| df_binder_14   | 0.6765        | 0.9401        |
+| df_binder_13   | 0.9009        | 1.3270        |
+| df_binder_15   | 0.9471        | 1.2671        |
+
 - Generation of 5 structures for each sequence using AlphaFold 3. 
 
 The structures have been analyzed with the following Python code: 📙[Jupyter Notebook - AF3_json_analyzer.ipynb](https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_2/Notebooks/af3_json_parser.ipynb). The output `.csv` file can be explored [here](https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_2/extracted_pae_data_round_2.csv). 
