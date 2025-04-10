@@ -535,27 +535,33 @@ df_filtered
 **WINNER**
 <p align="center"> <img src="Images/af3_filtered_table_2.png" alt="Imagen" width="1000" /> </p>
 
-🏆 - The results clearly show that binder 15 is the winner.  
+🏆 - The results clearly show that binder 14 is the winner.  
 
 ```
-> PD1_binder_15_round_2_top_1_seq (50 aa)
-NLIDKCVQEIDRLYNQAKAAADPEKKAQLDKKLQEQIAKCQKEIEEAKKK
+> PD1_binder_14_round_2_top_3_model_3_seq (88 aa)
+LWPLFDRAADLISTYATIILAARAAGLDVEAVCADLAAQAPADLAALGAPAAAVAAAVAAIRAAPGLADDDLVATFAALAAALKAAGV
 ```
+
 Metrics:
 ```
-| Metric                      | Best   					|
-|-----------------------------|-----------------------------------------|
-| name                        | fold_binder_15_round_2_top_1_model_0 	|
-| iptm                        | 0.8    					|
-| ptm                         | 0.86   					|
-| chain_iptm_A                | 0.8    					|
-| chain_iptm_B                | 0.8    					|
-| chain_ptm_A                 | 0.73   					|
-| chain_ptm_B                 | 0.85   					|
-| chain_pair_pae_min_AB       | 1.34   					|
-| chain_pair_pae_min_BA       | 1.48   					|
-| chain_pair_pae_min_average  | 1.41   					|
+| Metric                         | Best                                |
+|----------------------------------|-------------------------------------------|
+| name                             | fold_binder_14_round_2_top_3_model_3      |
+| iptm                             | 0.88                                      |
+| ptm                              | 0.91                                      |
+| chain_iptm_A                     | 0.88                                      |
+| chain_iptm_B                     | 0.88                                      |
+| chain_ptm_A                      | 0.88                                      |
+| chain_ptm_B                      | 0.88                                      |
+| chain_pair_pae_min_AB            | 0.91                                      |
+| chain_pair_pae_min_BA            | 0.94                                      |
+| chain_pair_pae_min_average       | 0.925                                     |
 ```
+
+
+
+
+
 
 
  <p align="center"> <img src="Images/winner.png" alt="Imagen" width="800" /> </p>
