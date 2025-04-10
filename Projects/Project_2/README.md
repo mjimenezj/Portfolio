@@ -22,7 +22,6 @@
 
 **To generate a new protein binder to PD-1 in order to disrupt the PD-1/PD-L1 interaction**, thereby reactivating the antitumor immune response.
 
-
 ## Software
 
 - RosettaFold Diffusion
