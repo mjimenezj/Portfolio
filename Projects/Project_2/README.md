@@ -314,8 +314,7 @@ data = data.sort_values(by="Radius_of_gyration", ascending=True, ignore_index=Tr
 | 18        | pd1_binder_20.pdb    | 20          | 23.078663              | 72               |
 | 19        | pd1_binder_10.pdb    | 10          | 27.222211              | 64               |
 
-- Graphical representation (see the code 📙[here](https://github.com/mjimenezj/Portfolio/blob/main/Project_2/radius_of_gyration.ipynb)):
-  
+- Graphical representation (see the code 📙[here](https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_2/Notebooks/radius_of_gyration.ipynb)):
 <p align="center"> <img src="Images/radius_of_gyration.png" alt="Imagen" width="800" /> </p>
 
 - The size of the binder (orange line) is not related to how compact the generated structure is, at least in this small set of 20 samples.  
