@@ -439,18 +439,22 @@ In order to analyze the results, the FASTA files for each model were parsed, and
 
 -  The score range for each binder in this first round has been:
  
- | Binder    | Min Score | Max Score |
-|-----------|-----------|-----------|
-| binder_11 | 1.2107    | 1.6454    |
-| binder_15 | 1.2060    | 1.5120    |
-| binder_17 | 1.0480    | 1.4805    |
-| binder_13 | 1.0591    | 1.4417    |
-| binder_19 | 1.0029    | 1.3997    |
-| binder_9  | 1.0201    | 1.3893    |
-| binder_8  | 0.9004    | 1.3571    |
-| binder_1  | 0.9915    | 1.3387    |
-| binder_3  | 0.8549    | 1.2454    |
-| binder_14 | 0.8913    | 1.1911    |
+
+| **Binder**     | **Min_Score** | **Max_Score** |
+|----------------|---------------|---------------|
+| df_binder_3    | 0.8549        | 1.2454        |
+| df_binder_14   | 0.8913        | 1.1911        |
+| df_binder_8    | 0.9004        | 1.3571        |
+| df_binder_1    | 0.9915        | 1.3387        |
+| df_binder_19   | 1.0029        | 1.3997        |
+| df_binder_9    | 1.0201        | 1.3893        |
+| df_binder_17   | 1.0480        | 1.4805        |
+| df_binder_13   | 1.0591        | 1.4417        |
+| df_binder_15   | 1.2060        | 1.5120        |
+| df_binder_11   | 1.2107        | 1.6454        |
+
+
+
 
  
 
