@@ -503,7 +503,7 @@ The best structures of the three selected binders were passed back to ProteinMPN
         --sampling_temp "0.1 0.2 0.3"
   ```
 
-- Sequence Analysis. Selection of the top 5 sequences per binder (as done in the first round). The score range for each binder in this second round has been:
+- Sequence Analysis. Selection of the top 3 sequences per binder (as done in the first round). The score range for each binder in this second round has been:
   
 | **Binder**     | **Min_Score** | **Max_Score** |
 |----------------|---------------|---------------|
