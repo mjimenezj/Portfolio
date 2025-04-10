@@ -459,7 +459,7 @@ In order to analyze the results, the FASTA files for each model were parsed, and
 
 ## 4. Structure generation with AlphaFold 3 <a id="af3"></a>
 
-For the top 5 sequences of each binder, 5 structures of the PD1-binder complex have been generated using www.alphafoldserver.com. The structures have been analyzed with the following Python code: 📙[Jupyter Notebook - AF3_json_analyzer.ipynb](https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_2/Notebooks/af3_josn_parser.ipynb). The output `.csv` file can be explored [here](https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_2/extracted_pae_data.csv). The data has been filtered according to these metrics:  
+For the top 5 sequences of each binder, 5 structures of the PD1-binder complex have been generated using www.alphafoldserver.com. The structures have been analyzed with the following Python code: 📙[Jupyter Notebook - AF3_json_analyzer.ipynb](https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_2/Notebooks/af3_json_parser.ipynb). The output `.csv` file can be explored [here](https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_2/extracted_pae_data.csv). The data has been filtered according to these metrics:  
 
 **FILTERING**  
 
@@ -506,7 +506,7 @@ The best structures of the three selected binders were passed back to ProteinMPN
 - Sequence Analysis. selection of the top 5 sequences per binder (as done in the first round).
 - Generation of 5 structures for each sequence using AlphaFold 3. 
 
-The structures have been analyzed with the following Python code: 📙[Jupyter Notebook - AF3_json_analyzer.ipynb](https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_2/Notebooks/af3_josn_parser.ipynb). The output `.csv` file can be explored [here](https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_2/extracted_pae_data_round_2.csv). 
+The structures have been analyzed with the following Python code: 📙[Jupyter Notebook - AF3_json_analyzer.ipynb](https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_2/Notebooks/af3_json_parser.ipynb). The output `.csv` file can be explored [here](https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_2/extracted_pae_data_round_2.csv). 
 
 **FILTERS**  
 
