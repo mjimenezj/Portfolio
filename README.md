@@ -2,10 +2,9 @@
 
 ![Imagen](Images/banner_portfolio.png)
 
-Hello, I'm Marcos. I am a passionate scientist with more than 5 years of research experience recently graduated as PhD in Biochemistry. 
+Hello, I'm Marcos. I am a passionate scientist with more than 5 years of research experience, recently graduated as PhD in Biochemistry. 
 
-My research has awakened my interest in the world of Data Science. I am currently enrolled in an online MSc in Data Science and I want to share some of the projects I am working on here. I hope you enjoy reading the projects as much as I did creating them :).
-
+My research has awakened my interest in the world of Data Science. I am making a transition from Experimental Sciences into Data Science. To boost my technical skills, I am currently enrolled in a MSc in Data Science & Big Data (online), and I want to share some of the projects I am working on here. I hope you enjoy reading the projects as much as I did creating them :).
 
 ### 📚 My Projects
 
@@ -13,13 +12,13 @@ Checkout my portfolio, where I showcase my [Projects](https://mjimenezj.github.i
 
 ### 🛠️ Tools I am Skilled in
 
-- Programming Languages: Python, R, SQL, Bash, LaTeX.
+- Programming Languages: Python, Bash, R, SQL, LaTeX.
 - Data Preprocessing: outliers detection, feature scaling & dimensionality reduction.
-- Skilled in: Pandas, Numpy, Scikit-learn, Matplotlib, Seaborn.
+- Skilled in: Pandas, Numpy, Scikit-learn, Matplotlib, Seaborn, TensorFlow.
 - Machine Learning Algorithms: Linear and Logistic Regressions, Naive Bayes, SVM, KNN, Softmax, Decision Trees, K-Means clustering, Random Forest, XGBoost, CatBoost, PCA.
 - Databases: PostgreSQL, MySQL, MongoDB.
-- Others: Linux, Git, AWS (initiated).
-- Structural Biology Software: Chimera X, AlphaFold 3, ESMFold, OMEGAFold, ProteinMPNN, LigandMPNN, RosettaFoldDiffusion. 
+- Others: Git, Linux, PowerBI, AWS (initiated).
+- Structural Biology Software: PyMol, Chimera X, AlphaFold 3, ESMFold, OMEGAFold, ProteinMPNN, LigandMPNN, RosettaFoldDiffusion. 
 
 
 ### 🧬 My Scientific Publications
