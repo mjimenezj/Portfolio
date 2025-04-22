@@ -47,7 +47,7 @@ The data is available [here](https://www.tandfonline.com/doi/abs/10.3109/1476705
 7. [Overall Models Comparison](#comparison)
 8. [Conclusions](#conclusions)
 
-**Note**: From this point on, a brief summary of each section has been provided into this document. You can view the full code with all the details and comments here:📙[Project 1 - Jupyter Notebook](https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_1/Project_1.ipynb)
+**Note**: From this point on, **a brief summary** of each section has been provided in this document. **You can view the full code** with all the details and comments here:📙[Project 1 - Jupyter Notebook](https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_1/Project_1.ipynb)
 
 ## 1. Exploratory Data Analysis (EDA) <a id="eda"></a>
 
@@ -74,17 +74,19 @@ Outliers were detected with two methods:
 
 **FEATURE TRANSFORMATION**
 
-After outliers were detected, some variables were transfored by one of the following methods:
+After outliers were detected, some variables were transformed by one of the following methods:
 - Logarithmic transformation
 - Root square
 - Binning
 - Winsorization
 
-This is a comparison before vs after data transformation. The threshold are the vertival red lines (Z-score = +-3):
+This is a comparison of before vs after data transformation. The thresholds are the vertical red lines (Z-score = +-3):
 
 <p align="center"> <img src="Images/outliers.png" alt="Imagen"/> </p>
 
 > The data transformation have drastically reduced the number of outliers present in the data.
+
+You can view the full code with more details and comments here:📙[Project 1 - Jupyter Notebook](https://github.com/mjimenezj/Portfolio/blob/main/Projects/Project_1/Project_1.ipynb)
 
 ## 3. Splitting the Dataset <a id="splitting"></a>
 
@@ -187,9 +189,9 @@ Trainig time (seconds): 0.003999233245849609
 
 > **COMMENTS**:  
 >
->1. **Overall Performance**:  the model demonstrates strong overall performance, as indicated by the high ROC-AUC score for the test set (**0.96**). **Accuracy** is also high at **91.96%**, meaning the model correctly classifies most instances. 
+>1. **Overall Performance**: the model demonstrates strong overall performance, as indicated by the high ROC-AUC score for the test set (**0.96**). **Accuracy** is also high at **91.96%**, meaning the model correctly classifies most instances. 
 >
-> 2. **Generalization and Overfitting**:  the comparison between training and test metrics suggests that the model **generalizes well** and **the model is not overfitted**.  
+> 2. **Generalization and Overfitting**: the comparison between training and test metrics suggests that the model **generalizes well** and **the model is not overfitted**.  
 >
 > 3. **Balance Between Precision and Recall**: the model maintains a good trade-off between correctly identifying positives and avoiding false positives.
 
