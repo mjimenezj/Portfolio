@@ -4,7 +4,7 @@
 
 Hello, I'm Marcos. I am a passionate scientist with more than 5 years of research experience, recently graduated as PhD in Biochemistry. 
 
-My research has awakened my interest in the world of Data Science. I am making a transition from Experimental Sciences into Data Science. To boost my technical skills, I am currently enrolled in a MSc in Data Science & Big Data (online), and I want to share some of the projects I am working on here. I hope you enjoy reading the projects as much as I did creating them :).
+My research has awakened my interest in the world of Data Science. I am making a transition from Experimental Sciences into Data Science. To boost my technical skills, I am currently enrolled in an MSc in Data Science & Big Data (online), and I want to share some of the projects I am working on here. I hope you enjoy reading the projects as much as I did creating them :).
 
 ### 📚 My Projects
 
