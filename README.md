@@ -1,6 +1,6 @@
 # 🙋🏻‍♂️ Welcome to my Data Science Portfolio! 
 
-![Imagen](images/overview.png)
+![Imagen](Images/banner_portfolio.png)
 
 Hello, I'm Marcos. I am a passionate scientist with more than 5 years of research experience, recently graduated as PhD in Biochemistry. 
 
