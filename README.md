@@ -26,7 +26,7 @@ Despite most of my research has not been published yet, let me share with you my
 
 - Jiménez-Juliana, M., Martínez-Jiménez, M. I., & Blanco, L. (2024). Remdesivir triphosphate is a valid substrate to initiate synthesis of DNA primers by human PrimPol. *DNA repair*, 143, 103772 (Elsevier). [https://doi.org/10.1016/j.dnarep.2024.103772](https://doi.org/10.1016/j.dnarep.2024.103772)
 
-- Jiménez-Juliana, M. (2025). Modelling the priming mechanism of human PrimPol based on experimental data and AI-predicted structures. *Doctoral Thesis* (Universidad Autónoma de Madrid). [https://aplicaciones.ciencia.gob.es/teseo/#/tesis/O863124/detalle](https://aplicaciones.ciencia.gob.es/teseo/#/tesis/O863124/detalle)
+- Jiménez-Juliana, M. (2025). Modelling the priming mechanism of human PrimPol based on experimental data and AI-predicted structures. *Doctoral Thesis* (Universidad Autónoma de Madrid). [https://aplicaciones.ciencia.gob.es/teseo/#/tesis/O863124/detalle](https://aplicaciones.ciencia.gob.es/teseo/#/tesis/O863124/detalle); [https://repositorio.uam.es/entities/publication/63c52104-245e-45ce-a7ac-7af02e1885ff](https://repositorio.uam.es/entities/publication/63c52104-245e-45ce-a7ac-7af02e1885ff).
 
 ### 👋🏻 Connect with Me
 
