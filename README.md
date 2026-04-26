@@ -12,21 +12,21 @@ Checkout my portfolio, where I showcase my [Projects](https://mjimenezj.github.i
 
 ### 🛠️ Tools I am Skilled in
 
-- Programming Languages: Python, Bash, R, SQL, LaTeX.
+- Programming Languages: Python, R, Bash, SQL, LaTeX.
 - Data Preprocessing: outliers detection, feature scaling & dimensionality reduction.
 - Skilled in: Pandas, Numpy, Scikit-learn, Matplotlib, Seaborn, TensorFlow.
-- Machine Learning Algorithms: Linear and Logistic Regressions, Naive Bayes, SVM, KNN, Softmax, Decision Trees, K-Means clustering, Random Forest, XGBoost, CatBoost, PCA.
+- Machine Learning Algorithms: Linear and Logistic Regressions, Naive Bayes, SVM, KNN, Softmax, Decision Trees, K-Means clustering, Random Forest, XGBoost, LightGBM, CatBoost, PCA, SHAP.
 - Databases: PostgreSQL, MySQL, MongoDB.
-- Others: Git, Linux, PowerBI, AWS (initiated).
+- Others: Git, Linux, PowerBI.
 - Structural Biology Software: PyMol, Chimera X, AlphaFold 3, ESMFold, OMEGAFold, ProteinMPNN, LigandMPNN, RosettaFoldDiffusion. 
-
 
 ### 🧬 My Scientific Publications
 
-Despite most of my research has not been published yet, let me share with you my first research article:
+Despite most of my research has not been published yet, let me share with you my first research article and my doctoral thesis:
 
 - Jiménez-Juliana, M., Martínez-Jiménez, M. I., & Blanco, L. (2024). Remdesivir triphosphate is a valid substrate to initiate synthesis of DNA primers by human PrimPol. *DNA repair*, 143, 103772 (Elsevier). [https://doi.org/10.1016/j.dnarep.2024.103772](https://doi.org/10.1016/j.dnarep.2024.103772)
 
+- Jiménez-Juliana, M. (2025). Modelling the priming mechanism of human PrimPol based on experimental data and AI-predicted structures. *Doctoral Thesis* (Universidad Autónoma de Madrid). [https://aplicaciones.ciencia.gob.es/teseo/#/tesis/O863124/detalle]([https://doi.org/10.1016/j.dnarep.2024.103772](https://aplicaciones.ciencia.gob.es/teseo/#/tesis/O863124/detalle)
 
 ### 👋🏻 Connect with Me
 
